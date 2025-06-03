@@ -1,0 +1,16 @@
+export enum StaffRole {
+    PARTNER = 'PARTNER',
+    MANAGER_1 = 'MANAGER_1',
+    MANAGER_2 = 'MANAGER_2',
+    ACCOUNTANT = 'ACCOUNTANT',
+    BOOKKEEPER_1 = 'BOOKKEEPER_1',
+    BOOKKEEPER_2 = 'BOOKKEEPER_2',
+    TAX_SPECIALIST = 'TAX_SPECIALIST',
+    OTHER_1 = 'OTHER_1',
+    OTHER_2 = 'OTHER_2',
+    OTHER_3 = 'OTHER_3',
+    OTHER_4 = 'OTHER_4',
+    OTHER_5 = 'OTHER_5',
+    ADMIN_1 = 'ADMIN_1',
+    ADMIN_2 = 'ADMIN_2'
+} 
