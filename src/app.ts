@@ -30,7 +30,7 @@ import toolRoutes from "./routes/toolRoutes";
 dotenv.config();
 
 const PORT = process.env.PORT || 3000;
-const CLIENT_URL ="http://localhost:5173";
+const CLIENT_URL ="https://practice-tool-client-g5l9hde78-akashs-projects-29a03025.vercel.app/";
 
 
 const app = express();
