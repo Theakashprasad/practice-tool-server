@@ -81,7 +81,9 @@ app.use("/api/links", linkRoutes);
 app.use("/api/rag", driveRoutes);
 app.use("/api/rag", retrievalRoutes);
 app.use("/api/tools", toolRoutes);
-
+app.use('/api/test',(req,res)=>{
+  res.send('hello')
+})
 // Initialize cleanup service and scheduler
 const cleanupService = new ChatCleanupService(chatSessions);
 const cronScheduler = new CronScheduler(cleanupService);
